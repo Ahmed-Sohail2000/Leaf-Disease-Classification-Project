@@ -172,3 +172,20 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore dataset files
+data/
+*.zip
+*.csv
+
+# Ignore model files
+*.h5
+*.pkl
+
+# Ignore Colab checkpoint files
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+__pycache__/
+
